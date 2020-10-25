@@ -66,6 +66,46 @@ function visualizeTopEconoicalBowlerPerYear(Data) {
     ]
   });
 });
+Highcharts.chart("top-economical-bowler-per-year", {
+  chart: {
+    type: "column"
+  },
+  title: {
+    text: `1. Top 10 Economical Bowler of 2018`
+  },
+  subtitle: {
+    text:
+      'Source: <a href="https://www.kaggle.com/nowke9/ipldata/data">IPL Dataset</a>'
+  },
+  xAxis: {
+    type: "category"
+  },
+  yAxis: {
+    min: 0,
+    title: {
+      text: "Economy"
+    }
+  },
+  series: [
+    {
+      name: "Bowlers",
+      data: Data["2008"],
+      dataLabels: {
+        enabled: true,
+        rotation: 0,
+        color: '#FFFFFF',
+        align: 'center',
+
+        format: '{point.y:.1f}', // one decimal
+        y: 25, // 10 pixels down from the top
+        style: {
+            fontSize: '13px',
+            fontFamily: 'Verdana, sans-serif'
+        }
+    }
+  }
+  ]
+});
 }
 
 
