@@ -71,7 +71,7 @@ Highcharts.chart("top-economical-bowler-per-year", {
     type: "column"
   },
   title: {
-    text: `1. Top 10 Economical Bowler of 2018`
+    text: `1. Top 10 Economical Bowler of 2008`
   },
   subtitle: {
     text:
