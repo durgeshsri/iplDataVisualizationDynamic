@@ -1,0 +1,43 @@
+body {
+    font-family: sans-serif;
+}
+
+.chart-container {
+    border: 1px dashed cornflowerblue;
+    margin: 3rem;
+}
+
+
+
+
+input {
+    font-size: 1.5rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+.container{
+    min-width: 310px;
+    height: 450px;
+    margin: 15px 1em;
+    margin-bottom: 100px;
+    border: 1px dashed cornflowerblue;
+    margin: 3rem;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+button {
+    display: inline-block;
+    padding: 0.35em 1.2em;
+    border: 0.1em solid #FFFFFF;
+    border-radius: 0.12em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: #FFFFFF;
+    background: #111111;
+    text-align: center;
+    transition: all 0.2s;
+    cursor: pointer;
+}
