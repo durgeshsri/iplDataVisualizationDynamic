@@ -30,7 +30,7 @@ function visualizeTopEconoicalBowlerPerYear(Data) {
       type: "column"
     },
     title: {
-      text: `1. Matches Played Per Year ${year}`
+      text: `1. Top 10 Economical Bowler of ${year}`
     },
     subtitle: {
       text:
